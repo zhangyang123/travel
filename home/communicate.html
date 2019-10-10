@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>迪科官网</title>
+    <meta name="keywords" content="讯众股份，讯众通信，短信验证码平台，语音短信验证码平台，短信群发业务，流量分发平台，云呼叫中心，隐号宝，双向呼叫，通知短信，大数据分析，数据标签，数据风控">
+    <meta name="description" content="讯众通信，是国内较早提出云通讯概念的服务商，基于互联网SIP通信协议，为互联网及移动互联网企业提供全面的融合通信服务。">
+    <link rel="stylesheet" type="text/css" href="css/public.css?t=1">
+    <link rel="stylesheet" type="text/css" href="css/model.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script>
+        $(function() {
+            //header下拉
+            $(".header").find(".header-links-list").hover(function(){
+                var hideEle = $(this).find(".header-links-list-slide");
+                var isLen = hideEle.length;
+                if( isLen ) {
+                    hideEle.slideDown();
+                }
+            },function(){
+                var currEle = $(this).find(".header-links-list-slide");
+                currEle.stop();
+                currEle.slideUp();
+            })
+            $(".header").find(".header-links-list").eq(2).addClass("currpage");
+            $(".header").find(".header-links-list").eq(2).find(".header-slide-links").eq(0).addClass("currsub");
+            //动画
+            $(".platform").on("click","li",function(){
+                var index = $(this).index();
+                $(this).addClass("currplat").siblings().removeClass("currplat");
+                if(index == 2) {
+                    $(".solar").removeClass("solar_planet2").removeClass("solar_planet3").addClass("solar_planet1");
+                }else if(index == 1) {
+                    $(".solar").removeClass("solar_planet1").removeClass("solar_planet3").addClass("solar_planet2");
+                }else if(index == 0) {
+                    $(".solar").removeClass("solar_planet1").removeClass("solar_planet2").addClass("solar_planet3");
+                }
+
+            })
+        })
+    </script>
+</head>
+<body>
+    <!--header开始-->
+    <div class="header-box">
+        <div class="header">
+            <a class="header-logo" href="index.html" target="_self">
+                <img src="images/logo.png">
+                全球智能大数据服务提供商
+            </a>
+            <div class="header-links">
+                <a class="header-links-list" href="index.html" target="_self">
+                    主页<br><span class="hsub">home</span>
+                </a>
+                <div class="header-links-list">
+                    产品介绍<br><span class="hsub">Product</span>
+                    <div class="header-links-list-slide">
+                        <a class="header-slide-links" href="model.html" target="_blank">
+                            离网预测模型
+                        </a>
+                        <a class="header-slide-links" href="wechat.html" target="_blank">
+                            微信用
+                        </a>
+                        <a class="header-slide-links" href="terminal.html" target="_blank">
+                            终端升级
+                        </a>
+                    </div>
+                </div>
+                <div class="header-links-list">
+                    行业服务<br><span class="hsub">Industry</span>
+                    <div class="header-links-list-slide">
+                        <a class="header-slide-links" href="communicate.html" target="_blank">
+                            通信领域
+                        </a>
+                        <a class="header-slide-links" href="javascript:void(0)" target="_blank" onclick="return false;">
+                            金融科技产品与服务
+                        </a>
+                    </div>
+                </div>
+                <div class="header-links-list">
+                    关于我们<br><span class="hsub">Company</span>
+                    <div class="header-links-list-slide">
+                        <a class="header-slide-links" href="company.html" target="_blank">
+                            公司介绍
+                        </a>
+                        <a class="header-slide-links" href="job.html" target="_blank">
+                            人员招聘
+                        </a>
+                    </div>
+                </div>
+                <a class="header-links-list" href="contact.html" target="_blank">
+                    联系我们<br><span class="hsub">Contact</span>
+                </a>
+                <!--<a class="header-links-list" href="login.html" target="_blank">-->
+                <!--合作伙伴<br><span class="hsub">Partner</span>-->
+                <!--</a>-->
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!--header结束-->
+    <!--内容开始-->
+    <div class="content">
+        <!--banner开始-->
+           <div class="banner-box communicate-box pt60" style="overflow:hidden;background:#020202">
+               <div class="title-top whitecolor">
+                   通信领域<br>
+                   <!--<span class="fontsize18">BCommunications</span>-->
+                   <div class="titleline"></div>
+               </div>
+               <ul class="platform">
+                   <li class="plat_service neptune">
+                       <div class="plattype"></div>
+                       服务商
+                   </li>
+                   <li class="plat_vendor venus">
+                       <div class="plattype"></div>
+                       手机厂商
+                   </li>
+                   <li class="plat_operator currplat mars">
+                       <div class="plattype"></div>
+                       运营商
+                   </li>
+               </ul>
+               <div class="solar solar_planet1">
+                   <div class="solar_system">
+                       <div class="planet operator">
+                           <div class="platfun operator_fun fun_first">
+                               <h3>客户维系</h3>
+                           </div>
+                           <div class="platfun operator_fun fun_second">
+                               <h3>用户体验</h3>
+                           </div>
+                           <div class="platfun operator_fun fun_third">
+                               <h3>存量增收</h3>
+                           </div>
+                           <div class="platfun operator_fun fun_forth">
+                               <h3>用户信用评估</h3>
+                           </div>
+                           <div class="platfun operator_fun fun_fifty">
+                               <h3>风险控制</h3>
+                           </div>
+                           <div class="planet_description">
+                               <h1>运营商</h1>
+                               <p>
+                                   迪科数据的专家团队，具有十余年通信运营商、渠道商、手机生产/分销商的经营管理经验。立
+                                   足于为顾客提供最好的通信产品和服务，利用先进的数据挖掘、模型分析、精准营销等工具和
+                                   手段，帮助通信行业企业解决客户流失、关系维系、价值提升、效率改善等一系列痛点。
+                               </p>
+                           </div>
+                           <div class='overlay'></div>
+                           <div class="wreck"></div>
+                       </div>
+                   </div><!--运营商-->
+                   <div class="solar_system">
+                       <div class="planet vendor">
+                           <div class="platfun vendor_fun fun_first">
+                               <h3>扩大用户规模</h3>
+                           </div>
+                           <div class="platfun vendor_fun fun_second">
+                               <h3>提高复购率</h3>
+                           </div>
+                           <div class="platfun vendor_fun fun_third">
+                               <h3>提升利用价值</h3>
+                           </div>
+                           <div class="platfun vendor_fun fun_forth">
+                               <h3>物流效率</h3>
+                           </div>
+                           <div class="platfun vendor_fun fun_fifty">
+                               <h3>终端维保</h3>
+                           </div>
+                           <div class="planet_description">
+                               <h1>手机厂商</h1>
+                               <p>
+                                   迪科数据的专家团队，具有十余年通信运营商、渠道商、手机生产/分销商的经营管理经验。立
+                                   足于为顾客提供最好的通信产品和服务，利用先进的数据挖掘、模型分析、精准营销等工具和
+                                   手段，帮助通信行业企业解决客户流失、关系维系、价值提升、效率改善等一系列痛点。
+                               </p>
+                           </div>
+                           <div class='overlay'></div>
+                           <div class="wreck"></div>
+                       </div>
+                   </div><!--手机厂商-->
+                   <div class="solar_system">
+                       <div class="planet service">
+                           <div class="platfun service_fun  fun_second">
+                               <h3>扩展生态链</h3>
+                           </div>
+                           <div class="platfun service_fun fun_third">
+                               <h3>提高产品流转</h3>
+                           </div>
+                           <div class="platfun service_fun fun_forth">
+                               <h3>信誉评估</h3>
+                           </div>
+                           <div class="platfun service_fun fun_fifty">
+                               <h3>服务评价</h3>
+                           </div>
+                           <div class="planet_description">
+                               <h1>服务商</h1>
+                               <p>
+                                   迪科数据的专家团队，具有十余年通信运营商、渠道商、手机生产/分销商的经营管理经验。立
+                                   足于为顾客提供最好的通信产品和服务，利用先进的数据挖掘、模型分析、精准营销等工具和
+                                   手段，帮助通信行业企业解决客户流失、关系维系、价值提升、效率改善等一系列痛点。
+                               </p>
+                           </div>
+                           <div class='overlay'></div>
+                           <div class="wreck"></div>
+                       </div>
+                   </div><!--服务商-->
+               </div>
+           </div>
+        <!--banner结束-->
+        <!--通信领域开始-->
+           <div class="modelintro-box">
+                <div class="modelintro-left floatl">
+                    <div class="captical-title">通信领域</div>
+                    <!--<span class="fontsize18 graycolor">Communication field</span>-->
+                    <div class="modelline"></div>
+                    <p class="model-text">
+                        迪科数据的专家团队，具有十余年通信运营商、渠道商、手机生产/分销商的经营管理经验<br>
+                        立足于为顾客提供最好的通信产品和服务，利用先进的数据挖掘、模型分析、精准营销等工<br>
+                        具和手段，帮助通信行业企业解决客户流失、关系维系、价值提升、效率改善等一系列痛点<br>
+                        运营商：顾客维系、用户体验、存量增收、用户信用评估、风险控制<br>
+                        手机厂商：扩大用户规模、提高复购率、提升利用价值、物流效率、终端维保<br>
+                        服务商：扩展生态链、提高产品流转、信誉评估、服务评价<br>
+                    </p>
+                </div>
+                <img class="modelintro-right floatr" src="images/c1.jpg">
+                <div style="clear:both;"></div>
+           </div>
+        <!--通信领域结束-->
+        <!--金融服务开始-->
+           <div class="modelintro-box">
+                <img class="financial-right floatl" src="images/c2.jpg">
+                <div class="modelintro-left floatl">
+                    <div class="captical-title">金融服务</div>
+                    <!--<span class="fontsize18 graycolor">Financial services</span>-->
+                    <div class="modelline"></div>
+                    <p class="model-text">
+                        基于迪科数据的用户信用模型以及风险控制模型，与金融行业中的各银行、保险企业的商业应用<br>
+                        相融合,为金融企业提供触达消费者日常生活、消费等各个方面的商业模型建设，并通过市场定<br>
+                        位、产品创新结合营销推广,实现高可靠、高稳定、高效率的金融服务，加大消费者对金融企业<br>
+                        的信任度，增强金融产品的购买使用，提升用户的价值
+                    </p>
+                </div>
+                <div style="clear:both;"></div>
+           </div>
+        <!--金融服务结束-->
+    </div>
+    <!--内容结束-->
+    <!--footer开始-->
+    <div class="footer-box blackBgColor">
+        <div class="footer con-wrap">
+            <dl>
+                <dt>产品介绍</dt>
+                <dd><a href="model.html" target="_blank">离网预测模型</a></dd>
+                <dd><a href="wechat.html" target="_blank">微信用</a></dd>
+                <dd><a href="terminal.html" target="_blank">终端升级</a></dd>
+            </dl>
+            <dl>
+                <dt>行业服务</dt>
+                <dd><a href="communicate.html" target="_blank">通信领域</a></dd>
+                <dd><a href="javascript:void(0)" target="_blank" onclick="return false;">金融领域</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="company.html" target="_blank">公司介绍</a></dd>
+                <dd><a href="job.html" target="_blank">人员招聘</a></dd>
+            </dl>
+            <ul class="footer-address">
+                <li>联系我们：电话:01053186001</li>
+                <li>邮箱：dke@commchina.net</li>
+                <li>地址：北京市朝阳区广顺南大街16号SONY（东煌大厦）大厦25层</li>
+                <li>公司名称：迪科数据咨询有限公司</li>
+            </ul>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="company-copy">
+            版权所有：北京迪科数据咨询有限公司<!--&nbsp;京ICP备：00000000号-->
+        </div>
+    </div>
+    <!--footer结束-->
+</body>
+</html>

@@ -1,0 +1,1181 @@
+.viewcon {
+    margin:0 auto;
+    width:1200px;
+}
+.fontsize18 {
+    font-size:18px;
+}
+.orangebg {
+    background:#ef8223;
+}
+.blackbg {
+    background:#242a38;
+}
+.graybg {
+    background:#515560;
+}
+.graycolor {
+    color:#666;
+}
+.whitecolor {
+    color:#fff;
+}
+.orangecolor {
+    color:#ef8223;
+}
+.textr {
+    text-align:right;
+}
+.pb60 {
+    padding-bottom:60px;
+}
+.pt60 {
+    padding-top:60px;
+}
+.floatl {
+    float:left;
+}
+.floatr {
+    float:right;
+}
+/*banner开始*/
+.banner-box {
+    position:relative;
+    height:800px;
+}
+.model-box {
+    background:url(../images/m1920.jpg) no-repeat center 0;
+}
+.wechat-box {
+    background:url(../images/chat1920.jpg) no-repeat center 0;
+}
+.terminal-box {
+    background:url(../images/tem1920.jpg) no-repeat center 0;
+}
+.company-box {
+    background:url(../images/pany1920.jpg) no-repeat center 0;
+}
+.job-box {
+    position:relative;
+    height:1129px;
+    background:url(../images/j1920.jpg) no-repeat center 0;
+}
+.contact-box {
+    background:url(../images/ta1920.jpg) no-repeat center 0;
+}
+.login-box {
+    background:url(../images/l1920.jpg) no-repeat center 0;
+}
+.banner-box .banner-con {
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding:65px 115px;
+    font-size:60px;
+    color:#fff;
+    text-align:center;
+    line-height: 60px;
+    letter-spacing: 2px;
+    transform:translate(-50%,-50%);
+    -webkit-transform:translate(-50%,-50%);
+    -moz-transform:translate(-50%,-50%);
+    -ms-transform:translate(-50%,-50%);
+}
+.banner-box .banner-con .timg {
+    position: absolute;
+    top:0;
+    left:0;
+}
+.banner-box .banner-con .bimg {
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+/*banner结束*/
+/*什么是预测模型开始*/
+.modelintro-box .modelintro-left {
+    padding-left:6.25%;
+    width:42.75%;
+}
+.captical-title {
+    padding:90px 0 15px;
+    font-size:38px;
+    color:#ef8223;
+    line-height: 40px;
+}
+.modelline {
+    /*margin:25px 0 30px;*/
+    margin:10px 0 30px;
+    width:55px;
+    height:5px;
+    background: #ef8223;
+}
+.model-text {
+    font-size:16px;
+    line-height: 34px;
+}
+.modelintro-box .modelintro-right {
+    width:51%;
+}
+.modelintro-box .goal-left {
+    padding-left:6.25%;
+    width:47.75%;
+}
+.modelintro-box .goal-right {
+    width:46%;
+}
+.modelintro-box .goal-list li {
+    position:relative;
+    float:left;
+    margin-right:140px;
+    width:100px;
+    font-size:20px;
+    text-align:center;
+}
+.modelintro-box .goal-list li .goalimg {
+    margin:80px auto 30px;
+    display: block;
+    width:90px;
+    height:90px;
+}
+.modelintro-box .goal-list li .goaldir {
+    position:absolute;
+    top:110px;
+    left:120px;
+}
+.modelintro-box .terminal-right {
+    width:51%;
+}
+.modelintro-box .terminal-list li {
+    float:left;
+    margin-top:80px;
+    padding:15px 10px;
+    width:160px;
+    height:90px;
+    font-size:16px;
+    color:#fff;
+    line-height: 26px;
+}
+.modelintro-box .mainte-left {
+    padding-left:6.25%;
+    width:39.75%;
+}
+.modelintro-box .mainte-right {
+    width:54%;
+}
+.modelintro-box .control-left {
+    padding-left:6.25%;
+    width:46.75%;
+}
+.modelintro-box .control-right {
+    width:47%;
+}
+.modelintro-box .terminal-right .uimg {
+    margin:40px 20px 80px;
+    width:270px;
+    height:526px;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+.modelintro-box .financial-right {
+    width:49%;
+}
+/*什么是预测模型结束*/
+/*客户生命周期开始*/
+.title-top {
+   position:relative;
+   margin:0 auto;
+   padding:60px 0;
+   width:1200px;
+   font-size:38px;
+   line-height: 46px;
+   text-align:center;
+}
+.title-top .titleline {
+    position:absolute;
+    /*bottom:40px;*/
+    bottom:30px;
+    left:50%;
+    margin-left:-27px;
+    width:55px;
+    height:4px;
+    background:#ef8223;
+}
+.cuscycle-box .cuscycle .cuscycle-list li {
+    position:relative;
+    float:left;
+    padding-bottom:95px;
+    width:25%;
+    height:auto;
+    font-size:26px;
+    color:#fff;
+    text-align:center;
+    letter-spacing: 3px;
+}
+.cuscycle-box .cuscycle .cuscycle-list li .cyimg {
+    display: block;
+    margin:30px auto;
+    width:90px;
+    height:90px;
+}
+.cuscycle-box .cuscycle .cuscycle-list li .li-dir {
+    position:absolute;
+    top:20px;
+    left:360px;
+    width:235px;
+    height:120px;
+    font-size:16px;
+    line-height: 60px;
+    background:url("../images/icon_arrow1.png?t=1") no-repeat center center;
+}
+/*客户生命周期结束*/
+/*微信用带来显著效果开始*/
+.welfare-box {
+    height:750px;
+    background:url(../images/e1920.jpg) no-repeat center 0;
+}
+.welfare-box .welfare-list li {
+    position:relative;
+    float:left;
+    margin:40px 20px;
+    width:200px;
+    height:375px;
+    color:#fff;
+    text-align:center;
+    background:url(../images/white.png) no-repeat center 0;
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+}
+.welfare-box .welfare-list li .wimg {
+    display:block;
+    margin:70px auto 20px;
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+}
+.welfare-box .welfare-list li .hidetitle {
+    display:none;
+    margin-bottom:20px;
+    width:100%;
+    font-size:16px;
+    transition:all .1s ease-in-out;
+    -webkit-transition:all .1s ease-in-out;
+    -moz-transition:all .1s ease-in-out;
+}
+.welfare-box .welfare-list li .wtext {
+    display:none;
+    margin:15px auto;
+    width:160px;
+    height:auto;
+    font-size:12px;
+    line-height: 24px;
+    text-align:left;
+    transition:all .1s ease-in-out;
+    -webkit-transition:all .1s ease-in-out;
+    -moz-transition:all .1s ease-in-out;
+}
+.welfare-box .welfare-list li .wtitle {
+    margin-top:25px;
+    font-size:26px;
+    line-height:40px;
+}
+.welfare-box .welfare-list li .wline {
+    margin:0 auto;
+    width:40px;
+    height:5px;
+    background:#fff;
+}
+.welfare-box .welfare-list li:hover {
+    background:url(../images/orange.png) no-repeat center 0;
+}
+.welfare-box .welfare-list li:hover .wimg {
+    margin:35px auto 20px;
+    width:35px;
+    height:35px;
+}
+.welfare-box .welfare-list li:hover .hidetitle,
+.welfare-box .welfare-list li:hover .wtext {
+    display: block;
+}
+.welfare-box .welfare-list li:hover .wtitle {
+    display:none;
+}
+/*微信用带来显著效果结束*/
+/*终端升级方案流程开始*/
+.program-bottom {
+    height:220px;
+    background:url(../images/12.jpg) no-repeat center 0;
+}
+.program-box .program-list li {
+    float:left;
+    width:25%;
+    height:220px;
+    font-size:18px;
+    color:#fff;
+    text-align:center;
+    line-height:36px;
+}
+.program-box .program-list li .proimg {
+    display: block;
+    margin:40px auto 20px;
+}
+/*终端升级方案流程结束*/
+/*终端升级资格开始*/
+.upcondite-box .upcondite .upcondite-list li {
+    float:left;
+    width:50%;
+    height:120px;
+    font-size:14px;
+    line-height: 24px;
+}
+.upcondite-box .upcondite .upcondite-list li .conimg {
+    position:relative;
+    margin:15px 30px;
+    padding:15px;
+    width:50px;
+    height:50px;
+    background:#242a38;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    transition:all .25s linear;
+    -webkit-transition:all .25s linear;
+    -o-transition:all .25s linear;
+    -moz-transition:all .25s linear;
+}
+.upcondite-box .upcondite .upcondite-list li .circleimg {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:url(../images/circle.png) no-repeat center 0;
+}
+.upcondite-box .upcondite .upcondite-list li .conimg:hover {
+    background:#ef8223;
+}
+.upcondite-box .upcondite .upcondite-list li .li-text {
+    padding-top:35px;
+    width:450px;
+}
+/*终端升级资格结束*/
+/*公司介绍开始*/
+.panyintro-box .panyintro .company-text {
+    margin-bottom:25px;
+    font-size:16px;
+    line-height:30px;
+    text-indent: 2em;
+}
+/*公司介绍介绍*/
+/*人员招聘开始*/
+.job-box .job {
+    position:absolute;
+    /*top:800px;*/
+    left:50%;
+    bottom:180px;
+    margin-left:-590px;
+    width:1180px;
+}
+.job-box .job li {
+    margin-bottom:35px;
+    width:448px;
+    height:88px;
+    font-size:34px;
+    color:#fff;
+    text-align:center;
+    line-height: 88px;
+    cursor: pointer;
+    border:1px solid #fff;
+}
+.job-box .job li.currjob {
+    color:#ef8223;
+    border:1px solid #ef8223;
+}
+.jobFun-box .jobFun {
+    margin:0 auto;
+    width:1440px;
+    overflow: hidden;
+}
+.jobFun-box .jobFun li {
+    float:left;
+    padding:0 20px 60px 135px;
+    width:565px;
+    font-size:14px;
+    line-height: 34px;
+}
+/*人员招聘结束*/
+/*联系我们开始*/
+.contact-box .contact-con {
+    position:absolute;
+    left:0;
+    bottom:210px;
+    width:100%;
+    font-size:22px;
+    text-align:center;
+    color:#fff;
+    letter-spacing:6px;
+}
+.addressMap-box .addressMap {
+    margin:80px auto;
+    width:1450px;
+}
+.addressMap-box .addressMap .mapContain {
+    float:left;
+    width:620px;
+    height:425px;
+}
+.addressMap-box .addressMap .contact-list {
+    float:left;
+    padding:70px 0;
+    width:830px;
+}
+.addressMap-box .addressMap .contact-list li {
+    padding-left:100px;
+    font-size:20px;
+    line-height: 70px;
+    background:url(../images/square.png) no-repeat 60px 25px;
+}
+/*联系我们结束*/
+/*合作伙伴开始*/
+.login-box .logincon {
+    position:absolute;
+    top:175px;
+    left:50%;
+    margin-left:-212px;
+    padding:0 55px;
+    width:315px;
+    height:508px;
+    border:1px solid #ef8223;
+    box-shadow:0 0 200px inset rgba(239,139,35,.3);
+    -webkit-box-shadow:0 0 200px inset rgba(239,139,35,.3);
+    -o-box-shadow:0 0 200px inset rgba(239,139,35,.3);
+    -moz-box-shadow:0 0 200px inset rgba(239,139,35,.3);
+}
+.login-box .logincon .login-title {
+    padding:40px 0;
+    font-size:18px;
+    color:#ef8223;
+    text-align:center;
+}
+.login-box .logincon .input-list {
+    position:relative;
+    margin-bottom:30px;
+    color:#fff;
+}
+.login-box .logincon .input-list .loginicon {
+    position:absolute;
+    top:1px;
+    left:1px;
+    width:42px;
+    height:42px;
+}
+.login-box .logincon .input-list .inputtype {
+    padding-left:48px;
+    height:40px;
+    font-size:16px;
+    color:#fff;
+    border:1px solid #fff;
+    background:transparent;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+.login-box .logincon .input-list .inputtype::-webkit-input-placeholder {
+    font-size:14px;
+    color:#fff;
+}
+.login-box .logincon .input-list .inputtype::-moz-placeholder {
+    font-size:14px;
+    color:#fff;
+}
+.login-box .logincon .input-list .inputtype:-moz-placeholder {
+    font-size:14px;
+    color:#fff;
+}
+.login-box .logincon .input-list .inputtype:-ms-input-placeholder {
+    font-size:14px;
+    color:#fff;
+}
+.login-box .logincon .input-list input[type="checkbox"]+label {
+    padding-left:20px;
+}
+.login-box .logincon .input-list input[type="checkbox"] {
+    position:absolute;
+    clip:rect(0,0,0,0);
+}
+.login-box .logincon .input-list input[type="checkbox"]+label:before {
+    position:absolute;
+    top:2px;
+    left:0;
+    width:16px;
+    height:16px;
+    content:"";
+    background:url(../images/no.png) no-repeat center 0;
+}
+.login-box .logincon .input-list input[type="checkbox"]:checked+label:before{
+    display:none;
+}
+.login-box .logincon .input-list input[type="checkbox"]:checked+label:after{
+    position:absolute;
+    top:2px;
+    left:0;
+    width:16px;
+    height:16px;
+    content:"";
+    background:url(../images/checked.png) no-repeat center 0;
+}
+.login-box .logincon .input-list .inputtype.w262 {
+    width:265px;
+}
+.login-box .logincon .input-list .inputtype.w127 {
+    width:127px;
+}
+.login-box .logincon .loginBtn {
+    margin-top:40px;
+    width:100%;
+    height:40px;
+    font-size:16px;
+    color:#fff;
+    text-align:center;
+    line-height: 40px;
+    cursor: pointer;
+    background: #ef8223;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+}
+.login-box .logincon .logintext {
+    position:absolute;
+    left:0;
+    bottom:10px;
+    width:100%;
+    font-size:12px;
+    color:#fff;
+    text-align:center;
+}
+/*合作伙伴结束*/
+/*通信领域开始*/
+.banner-box.communicate-box {
+    height:860px;
+}
+.communicate-box .platform {
+    position:absolute;
+    top:330px;
+    left:100px;
+    z-index:15;
+}
+.communicate-box .platform li {
+    position:relative;
+    display:block;
+    padding:0 0 25px 70px;
+    height:55px;
+    font-size:16px;
+    line-height: 55px;
+    color:#fff;
+    cursor: pointer;
+}
+.communicate-box .platform li.currplat {
+    color:#ef8223;
+}
+.communicate-box .platform li .plattype {
+    position:absolute;
+    left:0;
+    top:0;
+    width:55px;
+    height:55px;
+    overflow: hidden;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    box-shadow:0 -10px 20px 5px #000 inset;
+    -webkit-box-shadow:0 -10px 20px 5px #000 inset;
+    -moz-box-shadow:0 -10px 20px 5px #000 inset;
+}
+.communicate-box .platform li.plat_service .plattype {
+    background:url(https://www.solarsystemscope.com/images/textures/full/2k_neptune.jpg) no-repeat center center;
+}
+.communicate-box .platform li.plat_vendor .plattype {
+    background:url(https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg) no-repeat center center;
+}
+.communicate-box .platform li.plat_operator .plattype {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg) no-repeat center center;
+}
+.communicate-box .solar {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    perspective:800px;
+    -webkit-perspective:800px;
+    -moz-perspective:800px;
+    transform-style:preserve-3d;
+    -webkit-transform-style:preserve-3d;
+    transform:rotateX(-20deg);
+    -webkit-transform:rotateX(-20deg);
+    -moz-transform:rotateX(-20deg);
+    -o-transform:rotateX(-20deg);
+    -ms-transform:rotateX(-20deg);
+}
+.communicate-box .solar .solar_system .planet {
+    position:absolute;
+    right:0;
+    bottom:-920px;
+    left:0;
+    z-index:1;
+    margin:auto;
+    height:1200px;
+    width:1200px;
+    background-size:1140px 910px!important;
+    border-radius:600px;
+    -webkit-border-radius:600px;
+    -moz-border-radius:600px;
+    -ms-border-radius:600px;
+    transition:opacity 2s .8s, transform 2.8s .23s cubic-bezier(.33,0,0,1),box-shadow 0s 0s;
+    -webkit-transition:opacity 2s .8s, transform 2.8s .23s cubic-bezier(.33,0,0,1),box-shadow 0s 0s;
+    -o-transition:opacity 2s .8s, transform 2.8s .23s cubic-bezier(.33,0,0,1),box-shadow 0s 0s;
+    -moz-transition:opacity 2s .8s, transform 2.8s .23s cubic-bezier(.33,0,0,1),box-shadow 0s 0s;
+    -ms-transition:opacity 2s .8s, transform 2.8s .23s cubic-bezier(.33,0,0,1),box-shadow 0s 0s;
+}
+.communicate-box .solar .solar_system .planet.operator {
+    background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mars_texture.jpg)no-repeat center 0;
+    opacity:2;
+    -moz-opacity:2;
+    transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #e86363 inset,0 0 23px 4px #e86363 inset,0 -10px 130px #6b261a;
+    -webkit-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #e86363 inset,0 0 23px 4px #e86363 inset,0 -10px 130px #6b261a;
+    -moz-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #e86363 inset,0 0 23px 4px #e86363 inset,0 -10px 130px #6b261a;
+    -o-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #e86363 inset,0 0 23px 4px #e86363 inset,0 -10px 130px #6b261a;
+    -ms-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #e86363 inset,0 0 23px 4px #e86363 inset,0 -10px 130px #6b261a;
+}
+.communicate-box .solar .solar_system .planet.vendor {
+    background:url(https://nasa3d.arc.nasa.gov/shared_assets/images/ven0aaa2/ven0aaa2-copy-428-321.jpg)no-repeat center 0;
+    opacity:1;
+    -moz-opacity:1;
+    transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #ffcb9c inset,0 0 23px 4px #ffcb9c inset,0 -10px 130px #b85a07;
+    -webkit-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #ffcb9c inset,0 0 23px 4px #ffcb9c inset,0 -10px 130px #b85a07;
+    -o-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #ffcb9c inset,0 0 23px 4px #ffcb9c inset,0 -10px 130px #b85a07;
+    -moz-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #ffcb9c inset,0 0 23px 4px #ffcb9c inset,0 -10px 130px #b85a07;
+    -ms-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px #ffcb9c inset,0 0 23px 4px #ffcb9c inset,0 -10px 130px #b85a07;
+}
+.communicate-box .solar .solar_system .planet.service {
+    background:url(https://www.solarsystemscope.com/images/textures/full/2k_neptune.jpg)no-repeat center 0;
+    opacity:0;
+    -moz-opacity:0;
+    transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    box-shadow:0 -590px 150px #000 inset,0 0 130px 40px rgba(234,205,199,.6) inset,0 0 23px 4px rgba(234,205,199,.6) inset,0 -10px 130px #2d4153;
+    -webkit-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px rgba(234,205,199,.6) inset,0 0 23px 4px rgba(234,205,199,.6) inset,0 -10px 130px #2d4153;
+    -o-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px rgba(234,205,199,.6) inset,0 0 23px 4px rgba(234,205,199,.6) inset,0 -10px 130px #2d4153;
+    -moz-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px rgba(234,205,199,.6) inset,0 0 23px 4px rgba(234,205,199,.6) inset,0 -10px 130px #2d4153;
+    -ms-box-shadow:0 -590px 150px #000 inset,0 0 130px 40px rgba(234,205,199,.6) inset,0 0 23px 4px rgba(234,205,199,.6) inset,0 -10px 130px #2d4153;
+}
+.communicate-box .solar .solar_system .planet .overlay {
+    position:absolute;
+    top:-240px;
+    left:-305px;
+    width:1800px;
+    height:620px;
+    border-bottom:1200px solid #000;
+    opacity:1;
+    -moz-opacity:1;
+    transform:none;
+    -webkit-transform:none;
+    -o-transform:none;
+    -moz-transform:none;
+    -ms-transform:none;
+    box-shadow:0 -120px 210px 110px #000 inset;
+    -webkit-box-shadow:0 -120px 210px 180px #000 inset;
+    -o-box-shadow:0 -120px 210px 180px #000 inset;
+    -moz-box-shadow:0 -120px 210px 180px #000 inset;
+    -ms-box-shadow:0 -120px 210px 180px #000 inset;
+}
+.communicate-box .solar .solar_system .planet .planet_description {
+    position:absolute;
+    right:0;
+    left:0;
+    z-index:1;
+    margin:auto;
+    width:620px;
+    color:#fff;
+    text-align:center;
+    font-weight:100;
+    transition:all .4s 0s;
+    -webkit-transition:all .4s 0s;
+    -o-transition:all .4s 0s;
+    -moz-transition:all .4s 0s;
+    -ms-transition:all .4s 0s;
+}
+.communicate-box .solar .solar_system .planet .planet_description h1 {
+    position:relative;
+    top:-330px;
+    margin:80px auto 30px;
+    font-size:34px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    transition:all .5s 0s;
+    -webkit-transition:all .5s 0s;
+    -o-transition:all .5s 0s;
+    -moz-transition:all .5s 0s;
+    -ms-transition:all .5s 0s;
+}
+.communicate-box .solar .solar_system .planet .planet_description p {
+    font-size:16px;
+    line-height:30px;
+    letter-spacing:3px;
+    opacity:0;
+    -moz-opacity:0;
+}
+.communicate-box .solar .solar_system .planet .wreck {
+    position:absolute;
+    top:-150px;
+    left:50%;
+    margin-left:-750px;
+    width:1500px;
+    height:1500px;
+    border:2px dashed rgba(255,255,255,.6);
+    background:transparent;
+    opacity:0;
+    -moz-opacity:0;
+    transition:all .6s 0s;
+    -webkit-transition:all .6s 0s;
+    -o-transition:all .6s 0s;
+    -moz-transition:all .6s 0s;
+    border-radius:3400px;
+    -webkit-border-radius:3400px;
+    -moz-border-radius:3400px;
+    -ms-border-radius:3400px;
+}
+.communicate-box .solar .solar_system .planet .platfun {
+    position:absolute;
+    z-index:5;
+    font-size:18px;
+    color:#fff;
+    opacity:0;
+    -moz-opacity:0;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -o-border-radius:50%;
+    -moz-border-radius:50%;
+    box-shadow: 0 -10px 30px 10px #000 inset;
+    -webkit-box-shadow: 0 -10px 30px 10px #000 inset;
+    -o-box-shadow: 0 -10px 30px 10px #000 inset;
+    -moz-box-shadow: 0 -10px 30px 10px #000 inset;
+    -ms-box-shadow: 0 -10px 30px 10px #000 inset;
+    transition:all .6s .2s;
+    -webkit-transition:all .6s .2s;
+    -o-transition:all .6s .2s;
+    -moz-transition:all .6s .2s;
+    -ms-transition:all .6s .2s;
+}
+.communicate-box .solar .solar_system .planet .platfun h3 {
+    position:relative;
+    top:-30px;
+    width:200px;
+    font-size:20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.communicate-box .solar .solar_system .planet .platfun.operator_fun {
+    background:url(https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA07782_hires.jpg) no-repeat center center;
+}
+.communicate-box .solar .solar_system .planet .platfun.vendor_fun {
+    background:url(http://stevealbers.net/albers/sos/jupiter/io/io_rgb_cyl.jpg) no-repeat center center;
+}
+.communicate-box .solar .solar_system .planet .platfun.service_fun {
+    background:url(https://img.purch.com/w/660/aHR0cDovL3d3dy5zcGFjZS5jb20vaW1hZ2VzL2kvMDAwLzA0NC8yMzkvb3JpZ2luYWwvZW5jZWxhZHVzLW1hcC1jYXNzaW5pLmpwZw==) no-repeat center center;
+}
+.communicate-box .solar .solar_system .planet .fun_first {
+    top:200px;
+    left:-70px;
+    height:72px;
+    width:80px;
+}
+.communicate-box .solar .solar_system .planet .fun_second {
+    height:90px;
+    width:95px;
+    top:-30px;
+    left:80px;
+}
+.communicate-box .solar .solar_system .planet .fun_third {
+    height:72px;
+    width:80px;
+    top:-150px;
+    left:300px;
+}
+.communicate-box .solar .solar_system .planet .fun_forth {
+    height:100px;
+    width:105px;
+    top:-130px;
+    left:860px;
+}
+.communicate-box .solar .solar_system .planet .fun_fifty {
+    height:72px;
+    width:80px;
+    top:110px;
+    right:-30px;
+}
+/*初始选中运营商开始*/
+@keyframes planet{
+    from{
+        background-position-y:0;
+    }
+    to{
+        background-position-y:-1e3px;
+    }
+}
+@-webkit-keyframes planet{
+    from{
+        background-position-y:0;
+    }
+    to{
+        background-position-y:-1e3px;
+    }
+}
+@-o-keyframes planet{
+    from{
+        background-position-y:0;
+    }
+    to{
+        background-position-y:-1e3px;
+    }
+}
+@-moz-keyframes planet{
+    from{
+        background-position-y:0;
+    }
+    to{
+        background-position-y:-1e3px;
+    }
+}
+@-ms-keyframes planet{
+    from{
+        background-position-y:0;
+    }
+    to{
+        background-position-y:-1e3px;
+    }
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(1) .planet.operator {
+    z-index:10;
+    transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    opacity:2;
+    -moz-opacity:2;
+    animation:planet 60s 3.9s infinite linear;
+    -webkit-animation:planet 60s 3.9s infinite linear;
+    -o-animation:planet 60s 3.9s infinite linear;
+    -moz-animation:planet 60s 3.9s infinite linear;
+    -ms-animation:planet 60s 3.9s infinite linear;
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(2) .planet.vendor {
+    opacity:1;
+    -moz-opacity:1;
+    transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(-2300px) translateY(-800px) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(3) .planet.service {
+    opacity:0;
+    -moz-opacity:0;
+    transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(-4600px) translateY(-800px) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(-4600px) translateY(0) rotateX(4deg) scaleX(.89);
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(1) .planet .planet_description,
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(2) .planet .planet_description,
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(3) .planet .planet_description {
+    opacity:1;
+    -moz-opacity:1;
+    -webkit-transition:all .6s 2.6s;
+    transition:all .6s 2.6s
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(1) .planet .planet_description h1,
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(2) .planet .planet_description h1,
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(3) .planet .planet_description h1 {
+    top:0;
+    opacity:1;
+    -moz-opacity:1;
+    transition:all .5s 3s;
+    -webkit-transition:all .5s 3s;
+    -o-transition:all .5s 3s;
+    -moz-transition:all .5s 3s;
+    -ms-transition:all .5s 3s;
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(1) .planet .planet_description p,
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(2) .planet .planet_description p,
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(3) .planet .planet_description p {
+    opacity:1;
+    -moz-opacity:1;
+    transition:all 1s 3.5s,padding .3s 0s;
+    -webkit-transition:all 1s 3.5s,padding .3s 0s;
+    -o-transition:all 1s 3.5s,padding .3s 0s;
+    -moz-transition:all 1s 3.5s,padding .3s 0s;
+    -ms-transition:all 1s 3.5s,padding .3s 0s;
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(1) .planet .wreck,
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(2) .planet .wreck,
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(3) .planet .wreck {
+    opacity:1;
+    -moz-opacity:1;
+    transition:all .6s 2.9s;
+    -webkit-transition:all .6s 2.9s;
+    -o-transition:all .6s 2.9s;
+    -moz-transition:all .6s 2.9s;
+    -ms-transition:all .6s 2.9s;
+}
+.communicate-box .solar.solar_planet1 .solar_system:nth-of-type(1) .planet .platfun,
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(2) .planet .platfun,
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(3) .planet .platfun {
+    opacity:1;
+    -moz-opacity:1;
+    transition:all 1s 3.2s;
+    -webkit-transition:all 1s 3.2s;
+    -o-transition:all 1s 3.2s;
+    -moz-transition:all 1s 3.2s;
+    -ms-transition:all 1s 3.2s;
+}
+
+/*初始选中运营商结束*/
+/*选中手机厂商开始*/
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(1) .planet.operator {
+    transform:translateZ(2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(2300px) translateY(800px) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    opacity:3;
+    -moz-opacity:3;
+}
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(2) .planet.vendor {
+    z-index:10;
+    transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    opacity:2;
+    -moz-opacity:2;
+    animation:planet 60s 3.9s infinite linear;
+    -webkit-animation:planet 60s 3.9s infinite linear;
+    -o-animation:planet 60s 3.9s infinite linear;
+    -moz-animation:planet 60s 3.9s infinite linear;
+    -ms-animation:planet 60s 3.9s infinite linear;
+}
+.communicate-box .solar.solar_planet2 .solar_system:nth-of-type(3) .planet.service {
+    opacity:1;
+    -moz-opacity:1;
+    transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(-2300px) translateY(-800px) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(-2300px) translateY(0) rotateX(4deg) scaleX(.89);
+}
+/*选中手机厂商结束*/
+/*选中服务商开始*/
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(1) .planet.operator {
+    transform:translateZ(4600px) translateY(0) rotatex(4deg) scaleX(.89);
+    -webkit-transform:translateZ(4600px) translateY(0) rotatex(4deg) scaleX(.89);
+    -o-transform:translateZ(4600px) translateY(0) rotatex(4deg) scaleX(.89);
+    -moz-transform:translateZ(4600px) translateY(1600px) rotatex(4deg) scaleX(.89);
+    -ms-transform:translateZ(4600px) translateY(0) rotatex(4deg) scaleX(.89);
+    opacity:4;
+    -moz-opacity:4;
+}
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(2) .planet.vendor {
+    transform:translateZ(2300px) translateY(0) rotatex(4deg) scaleX(.89);
+    -webkit-transform:translateZ(2300px) translateY(0) rotatex(4deg) scaleX(.89);
+    -o-transform:translateZ(2300px) translateY(0) rotatex(4deg) scaleX(.89);
+    -moz-transform:translateZ(2300px) translateY(1600px) rotatex(4deg) scaleX(.89);
+    -ms-transform:translateZ(2300px) translateY(0) rotatex(4deg) scaleX(.89);
+    opacity:3;
+    -moz-opacity:3;
+}
+.communicate-box .solar.solar_planet3 .solar_system:nth-of-type(3) .planet.service {
+    z-index:10;
+    opacity:2;
+    -moz-opacity:2;
+    transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -webkit-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -o-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -moz-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    -ms-transform:translateZ(0) translateY(0) rotateX(4deg) scaleX(.89);
+    animation:planet 60s 3.9s infinite linear;
+    -webkit-animation:planet 60s 3.9s infinite linear;
+    -o-animation:planet 60s 3.9s infinite linear;
+    -moz-animation:planet 60s 3.9s infinite linear;
+    -ms-animation:planet 60s 3.9s infinite linear;
+}
+/*选中服务上结束*/
+/*通信领域结束*/
+@media (max-width:1366px) {
+    .fontsize22 {
+        font-size:18px;
+    }
+    .title-top {
+        font-size:28px;
+        line-height:38px;
+    }
+    .banner-box {
+        height:570px;
+    }
+    .banner-box .banner-con {
+        padding:50px 80px;
+        font-size:40px;
+    }
+    .model-box {
+        background:url(../images/m1366.jpg) no-repeat center 0;
+    }
+    .wechat-box {
+        background:url(../images/chat1366.jpg) no-repeat center 0;
+    }
+    .terminal-box {
+        background:url(../images/tem1366.jpg) no-repeat center 0;
+    }
+    .company-box {
+        background:url(../images/pany1366.jpg) no-repeat center 0;
+    }
+    .job-box {
+        height:830px;
+        background:url(../images/j1366.jpg) no-repeat center 0;
+    }
+    .job-box .job {
+        width:840px;
+        top:630px;
+        left:50%;
+        margin-left:-415px;
+    }
+    .job-box .job li {
+        margin-bottom:35px;
+        width:320px;
+        height:65px;
+        font-size:24px;
+        line-height:65px;
+    }
+    .contact-box {
+        background:url(../images/ta1366.jpg) no-repeat center 0;
+    }
+    .contact-box .contact-con {
+        bottom:165px;
+        font-size:20px;
+        letter-spacing:1px;
+    }
+    .banner-box.login-box {
+        height:800px;
+    }
+    .model-text {
+        font-size:13px;
+        line-height:26px;
+    }
+    .captical-title {
+        padding:60px 0 5px;
+        font-size:28px;
+    }
+    .modelline {
+        margin:15px 0 25px;
+    }
+    .welfare-box {
+        height:640px;
+        background:url(../images/e1366.jpg) no-repeat center 0;
+    }
+    .welfare-box .welfare-list li {
+        margin:0 19px;
+    }
+    .modelintro-box .terminal-right .uimg {
+        margin:30px 15px;
+        width:193px;
+        height:376px;
+    }
+    .modelintro-box .terminal-list li {
+        margin-top:40px;
+    }
+    .addressMap-box .addressMap {
+        width:1200px;
+    }
+    .addressMap-box .addressMap .mapContain {
+        width:445px;
+        height:320px;
+    }
+    .addressMap-box .addressMap .contact-list {
+        padding:20px 0;
+        width:755px;
+    }
+    .jobFun-box .jobFun {
+        margin:0 auto;
+        width:1200px;
+        overflow: hidden;
+    }
+    .jobFun-box .jobFun li {
+        padding:0 20px 60px 165px;
+        width:415px;
+    }
+    .jobFun-box .jobFun li.li-skill {
+        padding:0 20px 60px 105px;
+    }
+    .communicate-box {
+        height:750px;
+    }
+    .communicate-box .platform {
+        top:200px;
+    }
+    .cuscycle-box .cuscycle .cuscycle-list li {
+       font-size:20px;
+   
+    }
+    .cuscycle-box .cuscycle .cuscycle-list li .cyimg {
+        width:80px;
+        height:80px;
+        margin:20px auto;
+    }
+    .cuscycle-box .cuscycle .cuscycle-list li .li-dir {
+        left:245px;
+        width:190px;
+        height:80px;
+        font-size:14px;
+        line-height: 30px;
+        background:url("../images/icon_arrow.png") no-repeat center center;
+    }
+    .modelintro-box .goal-list li {
+        margin-right:100px;
+        width:90px;
+       font-size:16px;
+    }
+    .modelintro-box .goal-list li .goalimg {
+        margin:50px auto 15px;
+        width:70px;
+        height:70px;
+    }
+    .modelintro-box .goal-list li .goaldir {
+        top:80px;
+        left:90px;
+    }
+    .modelintro-box .terminal-list li {
+        margin-top:45px;
+        padding:10px;
+        width:115px;
+        height:65px;
+        font-size:12px;
+        line-height: 20px;
+    }
+}

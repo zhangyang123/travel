@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <title>迪科官网</title>
+    <meta name="keywords" content="讯众股份，讯众通信，短信验证码平台，语音短信验证码平台，短信群发业务，流量分发平台，云呼叫中心，隐号宝，双向呼叫，通知短信，大数据分析，数据标签，数据风控">
+    <meta name="description" content="讯众通信，是国内较早提出云通讯概念的服务商，基于互联网SIP通信协议，为互联网及移动互联网企业提供全面的融合通信服务。">
+    <link rel="stylesheet" type="text/css" href="css/public.css?t=1">
+    <link rel="stylesheet" type="text/css" href="css/model.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script>
+        $(function() {
+            //header下拉
+            $(".header").find(".header-links-list").hover(function(){
+                var hideEle = $(this).find(".header-links-list-slide");
+                var isLen = hideEle.length;
+                if( isLen ) {
+                    hideEle.slideDown();
+                }
+            },function(){
+                var currEle = $(this).find(".header-links-list-slide");
+                currEle.stop();
+                currEle.slideUp();
+            })
+            $(".header").find(".header-links-list").eq(3).addClass("currpage");
+            $(".header").find(".header-links-list").eq(3).find(".header-slide-links").eq(1).addClass("currsub");
+            //招聘职能
+            var funArr = [
+                {
+                    duties:"1.管理和开发客户数据库;<br>2.负责平台数据库系统的开发、维护，确保系统架构的完整性、兼容性、可扩展性,实现各种系统和相关的业务流程都符合业务需求用途;<br>3.确保数据的准确、完整、最新、一致性,监督数据的实时更新,并做好信息的安全保障;<br>4.监督创建和嵌入新的和现有的协议和业务,项目组织实施的流程,确保最佳实践;<br>5.作为客户数据库的主要联络点,进行识别改善营销系统和数据管理,做好第三方数据接口及交互,确保客户数据库与其他数据信息系统/数据来源的接入,整合;<br>6.维护与关键数据供应商的关系,确保遵守数据保护,并遵守最佳商业惯例，并关心使用和维护存储的数据;<br>7.协助业务、项目团队使用数据库来支持业务运作;",
+                    skill:"1.计算机及相关专业专科以上学历,2年以上数据库建设、运营、管理经验;<br>2.管理客户数据库以支持市场营销要求的经验;<br>3.电子邮件营销系统的经验;<br>4.管理跨系统集成的项目的经验;<br>5.熟悉数据清洗、数据维护;<br>6.重新设计业务流程的经验;<br>7.有效项目管理经验,实现明确的成果和时间表;"
+                },
+                {
+                    duties:"1.负责设计、创建和维护客户报告,分析客户数据并将报告信息反馈给客户;<br>2.解释客户需求以确定解决方案;<br>3.查询,转换和分析客户数据以生成可操作的见解;<br>4.协助数据分析模型建设，起草和维护自动化报告;<br>5.支持分析项目从理论到实际到执行的全过程;<br>6.清晰简洁地向内部和外部传达见解;<br>7.做好技术团队与客户的沟通;",
+                    skill:"1.SQL数据库：2年以上经验;<br>2.SPSS分析语言：2年以上经验;<br>3.数学、计算机、统计学等相关专业学士学位;<br>4.商业智能和数据可视化能力;<br>5.有能力和渴望不断学习和教导别人;<br>6.沟通能力强，英文流利;<br>7.持续、稳定、踏实的心态;"
+                },
+            ]
+            $(".job").on('click','li',function(){
+                var index = $(this).index();
+                var duty = $("#duty");
+                var skill = $("#skill");
+                $(this).addClass("currjob").siblings("li").removeClass("currjob");
+                duty.html(funArr[index].duties);
+                skill.html(funArr[index].skill);
+            })
+            $(".job").find("li")[0].click();
+        })
+    </script>
+</head>
+<body>
+    <!--header开始-->
+    <div class="header-box">
+        <div class="header">
+            <a class="header-logo" href="index.html" target="_self">
+                <img src="images/logo.png">
+                全球智能大数据服务提供商
+            </a>
+            <div class="header-links">
+                <a class="header-links-list" href="index.html" target="_self">
+                    主页<br><span class="hsub">home</span>
+                </a>
+                <div class="header-links-list">
+                    产品介绍<br><span class="hsub">Product</span>
+                    <div class="header-links-list-slide">
+                        <a class="header-slide-links" href="model.html" target="_blank">
+                            离网预测模型
+                        </a>
+                        <a class="header-slide-links" href="wechat.html" target="_blank">
+                            微信用
+                        </a>
+                        <a class="header-slide-links" href="terminal.html" target="_blank">
+                            终端升级
+                        </a>
+                    </div>
+                </div>
+                <div class="header-links-list">
+                    行业服务<br><span class="hsub">Industry</span>
+                    <div class="header-links-list-slide">
+                        <a class="header-slide-links" href="communicate.html" target="_blank">
+                            通信领域
+                        </a>
+                        <a class="header-slide-links" href="javascript:void(0)" target="_blank" onclick="return false;">
+                            金融服务
+                        </a>
+                    </div>
+                </div>
+                <div class="header-links-list">
+                    关于我们<br><span class="hsub">Company</span>
+                    <div class="header-links-list-slide">
+                        <a class="header-slide-links" href="company.html" target="_blank">
+                            公司介绍
+                        </a>
+                        <a class="header-slide-links" href="job.html" target="_blank">
+                            人员招聘
+                        </a>
+                    </div>
+                </div>
+                <a class="header-links-list" href="contact.html" target="_blank">
+                    联系我们<br><span class="hsub">Contact</span>
+                </a>
+                <!--<a class="header-links-list" href="login.html" target="_blank">-->
+                <!--合作伙伴<br><span class="hsub">Partner</span>-->
+                <!--</a>-->
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+    </div>
+    <!--header结束-->
+    <!--内容开始-->
+    <div class="content">
+        <!--banner开始-->
+           <div class="job-box">
+               <ul class="job">
+                   <li class="floatl currjob">数据库架构师</li>
+                   <li class="floatr">数据分析师</li>
+               </ul>
+           </div>
+        <!--banner结束-->
+        <!--招聘要求开始-->
+           <div class="jobFun-box">
+               <ul class="jobFun">
+                   <li>
+                       <div class="captical-title">岗位职责</div>
+                       <span class="fontsize22 graycolor">Job duties</span>
+                       <div class="modelline"></div>
+                       <p class="jobFun-text" id="duty">
+                          1.管理和开发客户数据库;<br>
+                          2.负责平台数据库系统的开发、维护，确保系统架构的完整性、兼容性、可扩展性，实现各种系统和相关的业务流程都符合业务需求用途;<br>
+                          3.确保数据的准确、完整、最新、一致性，监督数据的实时更新， 并做好信息的安全保障;<br>
+                          4.监督创建和嵌入新的和现有的协议和业务，项目组织实施的流程，确保最佳实践;<br>
+                          5.作为客户数据库的主要联络点，进行识别改善营销系统和数据管理，做好第三方数据接口及交互，确保客户数据库与其他数据信息系统/数据来源的接入，整合;<br>
+                          6.维护与关键数据供应商的关系，确保遵守数据保护，并遵守最佳商业惯例，并关心使用和维护存储的数据;<br>
+                          7.协助业务、项目团队使用数据库来支持业务运作;
+                       </p>
+                   </li>
+                   <li class="li-skill">
+                       <div class="captical-title">技能要求</div>
+                       <span class="fontsize22 graycolor">Qualifications</span>
+                       <div class="modelline"></div>
+                       <p class="jobFun-text" id="skill">
+                           1.计算机及相关专业专科以上学历，2年以上数据库建设、运营、管理经验;<br>
+                           2.管理客户数据库以支持市场营销要求的经验;<br>
+                           3.电子邮件营销系统的经验;<br>
+                           4.管理跨系统集成的项目的经验;<br>
+                           5.熟悉数据清洗、数据维护;<br>
+                           6.重新设计业务流程的经验;<br>
+                           7.有效项目管理经验，实现明确的成果和时间表;
+                       </p>
+                   </li>
+               </ul>
+           </div>
+        <!--招聘要求结束-->
+    </div>
+    <!--内容结束-->
+    <!--footer开始-->
+    <div class="footer-box blackBgColor">
+        <div class="footer con-wrap">
+            <dl>
+                <dt>产品介绍</dt>
+                <dd><a href="model.html" target="_blank">离网预测模型</a></dd>
+                <dd><a href="wechat.html" target="_blank">微信用</a></dd>
+                <dd><a href="terminal.html" target="_blank">终端升级</a></dd>
+            </dl>
+            <dl>
+                <dt>行业服务</dt>
+                <dd><a href="communicate.html" target="_blank">通信领域</a></dd>
+                <dd><a href="javascript:void(0)" target="_blank" onclick="return false;">金融领域</a></dd>
+            </dl>
+            <dl>
+                <dt>关于我们</dt>
+                <dd><a href="company.html" target="_blank">公司介绍</a></dd>
+                <dd><a href="job.html" target="_blank">人员招聘</a></dd>
+            </dl>
+            <ul class="footer-address">
+                <li>联系我们：电话:01053186001</li>
+                <li>邮箱：dke@commchina.net</li>
+                <li>地址：北京市朝阳区广顺南大街16号SONY（东煌大厦）大厦25层</li>
+                <li>公司名称：迪科数据咨询有限公司</li>
+            </ul>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="company-copy">
+            版权所有：北京迪科数据咨询有限公司<!--&nbsp;京ICP备：00000000号-->
+        </div>
+    </div>
+    <!--footer结束-->
+</body>
+</html>

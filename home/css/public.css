@@ -1,0 +1,205 @@
+@charset "utf-8";
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, input, p, blockquote, th, td, form, p {
+    margin: 0;
+    padding: 0;
+}
+ol, ul, li, dd, dt, dl {
+    list-style: none;
+}
+img {
+    border: 0;
+}
+body {
+    min-width: 1200px;
+    font: 14px/1.5em "Helvetica Neue", Helvetica, "Arial", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", SimSun, Roboto, sans-serif;
+    color: #333;
+}
+:focus {
+    outline: none;
+}
+em, th {
+    font-style: normal;
+    font-weight: normal;
+}
+a {
+    color:#fff;
+    text-decoration: none;
+    -moz-transition: color 0.2s;
+    -o-transition: color 0.2s;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+/*a:hover {*/
+    /*color:#d67320;*/
+/*}*/
+.blackBgColor {
+    background:#4d4d4e;
+}
+.con-wrap {
+    padding:0 6.25%;
+}
+.vertical {
+    vertical-align: middle;
+}
+/*header开始*/
+.header-box {
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:99999;
+    padding:0 6.25%;
+    width:87.5%;
+    height:90px;
+    background:rgba(36,43,56,.5);
+}
+.header-box .header .header-logo {
+    float:left;
+    margin:10px 0;
+    width:auto;
+    height:70px;
+    font-size:18px;
+    letter-spacing: 2px;
+}
+.header-box .header .header-logo img {
+    margin-right:5px;
+    width:68px;
+    height:68px;
+    vertical-align: middle;
+}
+.header-box .header .header-links {
+    float:right;
+    height:100%;
+}
+.header-box .header .header-links .header-links-list {
+    position:relative;
+    display:block;
+    float:left;
+    padding:20px 50px;
+    height:50px;
+    font-size:18px;
+    color:#fff;
+    line-height: 26px;
+    text-align:center;
+    cursor: pointer;
+}
+.header-box .header .header-links .header-links-list .hsub {
+    font-size:14px;
+}
+.header-box .header .header-links .header-links-list.currpage {
+    color:#ef8223;
+}
+.header-box .header .header-links .header-links-list .header-links-list-slide {
+    position:absolute;
+    top:89px;
+    left:50%;
+    z-index:9000;
+    display:none;
+    margin-left:-60px;
+    height:auto;
+    font-size:16px;
+    border-top:2px solid #b77334;
+    background:rgba(36,43,56,.5);
+}
+.header-box .header .header-links .header-links-list .header-links-list-slide .header-slide-links {
+    display: block;
+    /*padding:0 20px;*/
+    /*width:130px;*/
+    padding:0 10px;
+    width:150px;
+    height:40px;
+    color:#fff;
+    line-height: 40px;
+    text-align:left;
+    border-bottom:1px solid rgba(74,82,93,.3);
+}
+.header-box .header .header-links .header-links-list:hover {
+   color:#ef8223;
+}
+.header-box .header .header-links .header-links-list-slide .header-slide-links:hover {
+    color:#fff;
+    background:rgba(239,130,35,.5);
+}
+.header-box .header .header-links .header-links-list-slide .header-slide-links.currsub {
+    color:#fff;
+    background:rgba(239,130,35,.5);
+}
+/*header结束*/
+/*footer开始*/
+.footer-box .footer {
+    margin:0 auto;
+    width:1080px;
+    padding:60px 0;
+    overflow: hidden;
+}
+.footer-box .footer dl {
+    float:left;
+    padding:0 50px;
+}
+.footer-box .footer dl dt {
+    padding:15px 0 20px;
+    font-size:18px;
+    color:#fff;
+}
+.footer-box .footer dl dd a {
+    display: block;
+    padding:5px 0;
+    font-size:14px;
+    color:#999;
+}
+.footer-box .footer dl dd a:hover {
+    color:#fff;
+}
+.footer-box .footer .footer-address {
+    float:left;
+    padding:5px 0;
+    overflow: hidden;
+    border-left:1px solid #999;
+}
+.footer-box .footer .footer-address li {
+    padding:10px 50px;
+    font-size:15px;
+    color:#fff;
+}
+.footer-box .company-copy {
+    width:100%;
+    height:50px;
+    font-size:14px;
+    color:#999;
+    text-align:center;
+    line-height: 50px;
+    background:#272a2f;
+}
+/*footer结束*/
+/*适配小于1366屏幕开始*/
+@media (max-width:1366px) {
+    .header-box {
+        height:70px;
+    }
+    .header-box .header .header-logo {
+        margin:10px 0;
+        height:48px;
+        font-size:16px;
+    }
+    .header-box .header .header-logo img {
+        width:48px;
+        height:48px;
+    }
+    .header-box .header .header-links .header-links-list {
+       padding:20px 35px;
+       height:30px;
+       /*font-size:14px;*/
+        font-size:12px;
+       line-height:20px;
+    }
+    .header-box .header .header-links .header-links-list .hsub {
+        font-size:12px;
+    }
+    .header-box .header .header-links .header-links-list .header-links-list-slide {
+       top:69px;
+       font-size:13px;
+    }
+    .header-box .header .header-links .header-links-list .header-links-list-slide .header-slide-links {
+       width:120px;
+    }
+}
+/*适配小于1366屏幕结束*/
