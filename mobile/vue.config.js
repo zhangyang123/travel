@@ -2,13 +2,12 @@ module.exports = {
 	devServer:{
 		port:8080,
 		proxy:{
-			/*"/api":{*/
-			"/travel/mobile/dist":{
+			"/api":{
 				//target:"http://localhost:8080",
-				target:"https://zhangyang123.github.io"
+				target:"https://zhangyang123.github.io",
 				pathRewrite:{
-					"^/api" : "/mock/"
-					//"^/api":"/travel/mobile/dist/mock/"
+					//"^/api" : "/mock/"
+					"^/api":"/travel/mobile/dist/mock/"
 				}
 			}
 		}
