@@ -1,6 +1,4 @@
-
 module.exports = {
-	assetsDir: './',
 	devServer:{
 		port:8080,
 		proxy:{
@@ -11,6 +9,8 @@ module.exports = {
 				}
 			}
 		}
-	}
+	},
+	publicPath:'./'
+
 
 }
