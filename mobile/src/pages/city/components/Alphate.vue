@@ -30,6 +30,7 @@
 
        methods:{
           handleLetterClick (e) {
+              console.log(1212);
               let inner_html = e.target.innerHTML.replace(/\s/g,"");
               Bus.$emit("change",inner_html)
           },
@@ -68,6 +69,7 @@
       top:1.66rem
       right:0
       bottom:0
+      z-index:999
       display:flex
       flex-direction:column
       justify-content:center

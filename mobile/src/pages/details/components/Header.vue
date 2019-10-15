@@ -24,7 +24,6 @@
        },
        methods:{
           handleScroll () {
-             console.log('scroll');
              let top = document.documentElement.scrollTop;
              if(top > 60) {
                 this.showScroll = true

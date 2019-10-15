@@ -1,5 +1,6 @@
 
 module.exports = {
+	assetsDir: './',
 	devServer:{
 		port:8080,
 		proxy:{

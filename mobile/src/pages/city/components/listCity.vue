@@ -58,8 +58,10 @@
        },
        mounted () {
            const wraper = this.$refs.wraper;
-           const scroll = new BScroll(wraper,{click:true,tap:true});
+
+           const scroll = new BScroll(wraper,{click:true});
            Bus.$on("change",letter => {
+           console.log(wraper);
                if(letter) {
                   let element = this.$refs[letter][0];
                   
