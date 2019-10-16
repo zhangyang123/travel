@@ -28,8 +28,8 @@
        },
        methods:{
           getCityInfo () {
-             axios.get("/api/city.json")
-               .then(this.handleGetCitySuccInfo)
+             //axios.get("/api/city.json")
+               axios.get("/mock/city.json").then(this.handleGetCitySuccInfo)
           },
           handleGetCitySuccInfo (res) {
              res = res.data
