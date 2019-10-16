@@ -3,7 +3,7 @@
        <div class="header-back">   
            <span class="iconfont backicon">&#xe600;</span>
        </div>
-       <div class="header-input">
+       <div class="header-input" @click="handleClick">
            <span class="iconfont searchicon">&#xe62b;</span>
            输入城市/景点/游玩城市
        </div>
@@ -28,6 +28,11 @@
         },
         computed:{
            ...mapState(['city'])
+        },
+        methods:{
+           handleClick () {
+              this.$router.push('/City');
+           }
         }
         
     }
@@ -42,6 +47,7 @@
       height:.86rem;
       background:bg
       .header-back
+        position:relative
         float:left
         padding-left:.20rem
         width:.50rem
@@ -49,9 +55,14 @@
         color:#fff
         line-height:.43rem
         .backicon
+          position:absolute
           font-size:24px 
+          top:50%
+          transform:translateY(-50%)
+          -webkit-translateY(-50%)
+          -moz-translateY(-50%)
       .header-input 
-        flex-grow:1
+        flex:1
         padding-left:.10rem
         height:.56rem
         font-size:14px
@@ -66,7 +77,7 @@
       .header-right
         float:right
         padding-right:.20rem
-        width:1.50rem
+        padding-left:.10rem
         height:100%
         font-size:12px
         line-height:.86rem

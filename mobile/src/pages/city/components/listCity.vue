@@ -59,13 +59,11 @@
        mounted () {
            const wraper = this.$refs.wraper;
 
-           const scroll = new BScroll(wraper,{click:true});
+           const scroll = new BScroll(wraper,{click:true,tap:true});
            Bus.$on("change",letter => {
-           console.log(wraper);
-               if(letter) {
+              if(letter) {
                   let element = this.$refs[letter][0];
-                  
-                  scroll.scrollToElement(element);
+                  this.scroll.scrollToElement(element);
                }
            })
        }
