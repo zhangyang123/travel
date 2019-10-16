@@ -1,4 +1,4 @@
-﻿{
+﻿let homeData = {
     "ret": true,
     "data": {
         "city": "北京",
